@@ -15,7 +15,7 @@ cdef class Point:
         def __set__(self, y): self.y = y
         
     def debug_print(self):
-        print "(" + str(self.x) + ", " + str(self.y) + ")",
+        print( "(" + str(self.x) + ", " + str(self.y) + ")" ),
         
 cdef class Triangle:
     
